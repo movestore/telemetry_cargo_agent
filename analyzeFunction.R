@@ -3,6 +3,7 @@ library(ctmm)
 # mv <- readRDS("input4_goat.rds") #input2_geese.rds
 # rds <- as.telemetry(mv)
 
+# rds is a telemetry.list 
 analyze <- function(rds) {
   root <- NA
   
